@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    background-color: rgb(42, 53, 46);
+    text-align: left;
+}
+.topnav ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.topnav ul li {
+    padding: 15px 20px 15px 20px;
+}
+.topnav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.active, .topnav ul li:hover {
+    background-color: rgb(46, 197, 121);
+}
+ul li i {
+    margin: 5px;
+}

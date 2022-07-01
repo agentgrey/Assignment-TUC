@@ -1,0 +1,41 @@
+.page {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background:gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    background:lightskyblue;
+    padding: 30px;
+    border: 1px solid navy;
+    width: 450px;
+    text-align: center;
+}
+.box img {
+    width: 200px;
+    height: 200px;
+
+}
+.box input {
+    width:75%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid navy;
+}
+.box button {
+    padding: 10px 0;
+    width: 50%;
+    background: navy;
+    color: #fff;
+    font-size: 15px;
+    margin: auto;
+}
+
+
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> Task 3 </title>
+        <link rel="stylesheet" href="3_style.css">
+    </head>
+
+    <body>
+        <button onclick="document.getElementById('login-modal').style.display='flex'" class="login-btn"> Login </button>
+        <div id="login-modal">
+          <div class="modal">
+
+            <div class="top-form">
+              <div onclick="document.getElementById('login-modal').style.display='none'" class="close-modal">
+                 &#10006
+              </div>
+            </div>
+
+            <div class="login-form">
+              <h2> Login With Email </h2>
+                <form action="">
+                  <input type="text" class="form-control" placeholder="Email">
+                  <input type="password" class="form-control" placeholder="Password">
+                  <button type="button" class="submit-button"> Log In </button>
+                </form>
+            </div>
+
+          </div>
+        </div>
+
+    </body>
+
+</html>

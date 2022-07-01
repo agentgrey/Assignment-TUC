@@ -1,0 +1,68 @@
+* {
+    padding:0;
+    margin: 0;
+}
+
+.menuBar {
+    background: #fff;
+    text-align: left;
+}
+.menuBar ul {
+    display: inline-flex;
+    list-style: none;
+    color: #000;
+    font-family: sans-serif;
+}
+.menuBar ul li {
+    padding: 15px;
+    text-align: left;
+}
+.menuBar ul li a {
+    text-decoration: none;
+    color:unset;
+}
+.menuBar ul li:hover {
+    background-color:  rgb(233, 106, 48);
+    color: #fff;
+}
+
+.subMenu ul li:hover {
+    background-color: gainsboro;
+    color: #000;
+}
+
+
+
+.subMenu {
+    display: none;
+}
+.menuBar ul li:hover .subMenu {
+    display: block;
+    background-color: seashell;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menuBar ul li:hover .subMenu ul {
+    display: block;
+    margin: 10px;
+}
+.menuBar ul li:hover .subMenu ul li{
+    width:150px;
+    padding: 15px;
+    text-align: left;
+}
+
+
+
+.container {
+    background-color: rgb(233, 106, 48);
+    height: 300px;
+    width: 100%;
+}
+h2.mainText {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
